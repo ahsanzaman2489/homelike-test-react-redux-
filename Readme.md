@@ -4,7 +4,7 @@ To setup this project follow these steps.
 
 1) Clone or download the project.
 2) Move to project directory
-3) to install local depandencies open terminal or CMD 
+3) to install local depandencies open terminal or CMD run
 ```
 $ npm install
 ```
@@ -12,13 +12,14 @@ $ npm install
 ```
 $ npm install webpack webpack-dev-server -g
 ```
-5) To run project in webpack-dev-server
+5) To run project for developmnet using webpack-dev-server and to view project http://localhost:3000/
 ## Running
 
 ```
 $ npm start
 ```
-6) to build project run
+
+6) to build project , which generate static folder in root directory of your project you can view or deploy it anywhere 
 ## Build
 
 ```

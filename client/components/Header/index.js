@@ -41,11 +41,11 @@ class Header extends Component {
               </a>
               <ul class="dropdown-menu">
                 <li data-language="en">
-                  <a href="#"><img src="/icons/flags/en.png"/>
+                  <a href="#">
                     English</a>
                 </li>
                 <li data-language="de">
-                  <a href="#"><img src="/icons/flags/de.png"/>
+                  <a href="#">
                     Deutsch</a>
                 </li>
               </ul>

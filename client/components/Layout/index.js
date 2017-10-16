@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Header from '../Header/index';
-import {Router, Route, browserHistory, IndexRoute} from 'react-router';
+import {Router, Route, hashHistory} from 'react-router';
 import {syncHistoryWithStore} from 'react-router-redux';
 import {Provider} from 'react-redux';
 
@@ -12,11 +12,12 @@ import Register from '../pages/register';
 import Forget from '../pages/forget';
 
 
+
 import configure from '../../store';
 import styles from './style.css';
 
 const store = configure()
-const history = syncHistoryWithStore(browserHistory, store)
+const history = syncHistoryWithStore(hashHistory, store)
 
 export default class Layout extends React.Component {
     render() {
